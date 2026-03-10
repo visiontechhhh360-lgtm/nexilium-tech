@@ -77,7 +77,7 @@ export function Home() {
                   <span className="relative inline-flex rounded-full h-3 w-3 bg-[#FF6A00]"></span>
                 </span>
                 <span className="text-white/80 text-sm font-medium">
-                  Leading Technology Innovation
+                  Shaping the Future, One Pixel at a Time
                 </span>
               </motion.div>
               
