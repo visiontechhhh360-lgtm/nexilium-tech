@@ -109,6 +109,7 @@ export function Home() {
                 animate={isHeroInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.8, delay: 0.5 }}
               >
+                 <Link to="/contact">
                 <Button 
                   size="lg" 
                   className="bg-gradient-to-r from-[#FF6A00] to-[#FF8C33] hover:from-[#FF7A10] hover:to-[#FF9C43] text-white px-8 shadow-lg shadow-[#FF6A00]/50 group"
@@ -116,11 +117,12 @@ export function Home() {
                   Get Started
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
+                </Link>
                 <Link to="/offerings">
                   <Button 
                     size="lg" 
                     variant="outline" 
-                    className="border-2 border-white/20 text-white hover:bg-white/10 backdrop-blur-sm px-8 w-full sm:w-auto"
+                    className="border-2 border-white/20 text-black hover:bg-white/10 backdrop-blur-sm px-8 w-full sm:w-auto"
                   >
                     <Sparkles className="mr-2 w-5 h-5" />
                     Explore Services
@@ -640,7 +642,7 @@ function CTASection() {
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="border-white text-white hover:bg-white/10 px-8 w-full sm:w-auto"
+                className="border-white text-black hover:bg-white/10 px-8 w-full sm:w-auto"
               >
                 Contact Us
               </Button>

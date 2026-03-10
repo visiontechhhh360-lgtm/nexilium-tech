@@ -84,6 +84,7 @@ function ServicesDetailSection() {
 
   const services = [
     {
+      id: "software-development",
       icon: Code,
       title: "Software Development",
       description: "Custom software solutions built with cutting-edge technologies to streamline your operations and accelerate growth.",
@@ -97,6 +98,7 @@ function ServicesDetailSection() {
       gradient: "from-blue-500 to-cyan-500"
     },
     {
+      sectionid: "mobile-apps",
       icon: Smartphone,
       title: "Mobile App Development",
       description: "Native and cross-platform mobile applications that deliver exceptional user experiences across all devices.",

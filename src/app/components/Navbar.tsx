@@ -55,14 +55,15 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3 group">
-            <motion.div 
-              className="w-11 h-11 bg-gradient-to-br from-[#FF6A00] to-[#FF8C33] rounded-xl flex items-center justify-center shadow-lg"
-              whileHover={{ scale: 1.05, rotate: 5 }}
-              transition={{ type: "spring", stiffness: 400 }}
-            >
-              <span className="text-white font-bold text-xl">N</span>
-            </motion.div>
+           <Link to="/" className="flex items-center gap-2 group">
+           <motion.div
+             whileHover={{ rotate: 360, scale: 1.1 }}
+             transition={{ duration: 0.6 }}
+             className="relative"
+           >
+             <img src="/Logo.png" alt="Kestrel VPN" className="h-8 w-8" />
+           </motion.div>
+             
             <div>
               <span className="text-2xl font-bold text-[#0A0A0A] group-hover:text-[#FF6A00] transition-colors">
                 Nexilium
@@ -128,9 +129,11 @@ export function Navbar() {
                 )}
               </div>
             ))}
-            <Button className="bg-[#FF6A00] hover:bg-[#FF7A10] text-white">
-              Get Consultation
-            </Button>
+            <Link to="/contact">
+              <Button className="bg-[#FF6A00] hover:bg-[#FF7A10] text-white">
+                Get Consultation
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -171,9 +174,11 @@ export function Navbar() {
                   {link.name}
                 </Link>
               ))}
-              <Button className="w-full bg-[#FF6A00] hover:bg-[#FF7A10] text-white">
+              <Link to="/contact">
+              <Button className="bg-[#FF6A00] hover:bg-[#FF7A10] text-white">
                 Get Consultation
               </Button>
+            </Link>
             </div>
           </motion.div>
         )}

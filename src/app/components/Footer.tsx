@@ -41,25 +41,22 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-3">
               <li>
+                <a href="/" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
+                  Home
+                </a>
+              </li>
+              <li>
                 <Link to="/about" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
-                  Careers
-                </a>
+                <Link to="/contact" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
+                  Contact Us
+                </Link>
               </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
-                  Press Kit
-                </a>
-              </li>
+                            
+            
             </ul>
           </div>
 
@@ -68,12 +65,12 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/offerings" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
+                <Link to="/offerings#software-development" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
                   Software Development
                 </Link>
               </li>
               <li>
-                <Link to="/offerings" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
+                <Link to="/offerings#mobile-apps" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
                   Mobile Apps
                 </Link>
               </li>
@@ -82,9 +79,24 @@ export function Footer() {
                   Cybersecurity
                 </Link>
               </li>
+               <li>
+                <Link to="/offerings" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
+                  Digital Marketing
+                </Link>
+              </li>
+               <li>
+                <Link to="/offerings" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
+                  Data Recovery
+                </Link>
+              </li>
               <li>
                 <Link to="/offerings" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
                   IT Consulting
+                </Link>
+              </li>
+              <li>
+                <Link to="/offerings" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
+                  VPN Services
                 </Link>
               </li>
             </ul>

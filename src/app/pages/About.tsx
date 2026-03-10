@@ -18,8 +18,7 @@ export function About() {
       {/* Our Story Timeline */}
       <TimelineSection />
 
-      {/* Team Section */}
-      <TeamSection />
+    
 
       {/* Core Values */}
       <CoreValuesSection />
@@ -228,87 +227,6 @@ function TimelineSection() {
   );
 }
 
-function TeamSection() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
-
-  const team = [
-    {
-      name: "Michael Chen",
-      role: "Chief Executive Officer",
-      image: "https://images.unsplash.com/photo-1758518727888-ffa196002e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGxlYWRlcnNoaXAlMjBleGVjdXRpdmV8ZW58MXx8fHwxNzcyNzcyNTgyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      bio: "Visionary leader with 20+ years in technology innovation"
-    },
-    {
-      name: "Sarah Johnson",
-      role: "Chief Technology Officer",
-      image: "https://images.unsplash.com/photo-1762341114803-a797c44649f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHRlY2hub2xvZ3klMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzcyNzcyNTgyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      bio: "Expert in AI and cloud architecture with multiple patents"
-    },
-    {
-      name: "David Rodriguez",
-      role: "VP of Engineering",
-      image: "https://images.unsplash.com/photo-1758691737387-a89bb8adf768?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIwdGVjaCUyMHByb2Zlc3Npb25hbHN8ZW58MXx8fHwxNzcyNzcyNTgyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      bio: "Leads our engineering teams to deliver exceptional solutions"
-    },
-    {
-      name: "Emily Watson",
-      role: "Head of Cybersecurity",
-      image: "https://images.unsplash.com/photo-1762341114803-a797c44649f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHRlY2hub2xvZ3klMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzcyNzcyNTgyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      bio: "Protecting businesses with advanced security strategies"
-    }
-  ];
-
-  return (
-    <section ref={ref} className="py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
-          <h2 className="text-4xl font-bold text-[#0A0A0A] mb-4">
-            Meet Our <span className="text-[#FF6A00]">Leadership Team</span>
-          </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Experienced professionals driving innovation and excellence
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {team.map((member, index) => (
-            <motion.div
-              key={member.name}
-              initial={{ opacity: 0, y: 30 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group"
-            >
-              <div className="relative overflow-hidden rounded-2xl mb-4">
-                <ImageWithFallback
-                  src={member.image}
-                  alt={member.name}
-                  className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A]/60 to-transparent"></div>
-              </div>
-              <h3 className="text-xl font-semibold text-[#0A0A0A] mb-1">
-                {member.name}
-              </h3>
-              <p className="text-[#FF6A00] font-medium mb-2">
-                {member.role}
-              </p>
-              <p className="text-gray-600 text-sm">
-                {member.bio}
-              </p>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
 
 function CoreValuesSection() {
   const ref = useRef(null);
