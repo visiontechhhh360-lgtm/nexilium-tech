@@ -1,0 +1,350 @@
+Design a modern, professional, high-end technology company website UI in Figma for a company named Nexilium Tech.
+
+The company focuses on innovative technology solutions that empower businesses through digital transformation, software engineering, and cybersecurity services.
+
+The website must look like a premium SaaS / enterprise technology brand similar in quality to companies like modern tech consultancies and cybersecurity firms.
+
+Create a fully structured responsive website design with desktop frames (1440px width) and organized Figma components, styles, and auto-layout.
+
+Brand Identity
+
+Company Name: Nexilium Tech
+
+Tagline:
+Empowering Businesses Through Innovation and Expert Technology Solutions
+
+Theme Colors:
+
+Primary: Orange (#FF6A00)
+Secondary: Black (#0A0A0A)
+Background: White (#FFFFFF)
+Accent Gray: #6B7280
+
+Design Style
+
+• Modern SaaS UI
+• Clean enterprise design
+• Minimal but premium
+• Soft shadows and gradients
+• Rounded cards
+• Subtle micro-interactions
+• Professional tech-focused aesthetic
+• Grid-based layout
+
+Typography
+
+Headings: Bold modern sans-serif (similar to Inter / Poppins style)
+Body: Clean readable sans-serif
+
+Font hierarchy:
+
+H1 – large bold hero heading
+H2 – section titles
+H3 – card titles
+Body – clean paragraph text
+
+Navigation Bar (Sticky)
+
+Design a clean top navigation header
+
+Left: Nexilium Tech Logo
+Right Menu Items:
+
+Home
+About Us
+Offerings
+Contact
+
+CTA Button (highlighted in orange):
+
+Get Consultation
+
+Features:
+
+• sticky navigation
+• hover animations
+• dropdown for services
+
+Page 1 — Home Page
+
+Design a high-impact technology landing page.
+
+Hero Section
+
+Large modern hero layout.
+
+Left side:
+
+Headline:
+Empowering Businesses Through Innovation and Expert Technology Solutions
+
+Subtext:
+We deliver innovative tech solutions that drive success. Our team leverages advanced technologies to accelerate business growth and digital transformation.
+
+CTA Buttons:
+
+Get Started
+Explore Services
+
+Right side:
+
+Modern technology illustration / abstract digital network graphic with subtle orange gradient shapes.
+
+Background elements:
+
+• soft abstract shapes
+• tech grid pattern
+• subtle gradient glow
+
+Trusted by Businesses Section
+
+Logos of companies (placeholder logos).
+
+Title:
+Trusted by Innovative Businesses
+
+About Preview Section
+
+Title:
+Leveraging Advanced Technology Solutions to Accelerate Business Growth and Innovation
+
+Text:
+
+At Nexilium Tech, we specialize in delivering innovative tech solutions and custom software development to help businesses grow, optimize operations, and thrive in the digital era. Our expert team is committed to providing tailored services that drive success and transformation.
+
+Layout:
+
+Left: text
+Right: illustration or tech graphic
+
+CTA: Learn More
+
+Services Section
+
+Title:
+Our Services
+
+Design modern service cards grid (3x2)
+
+Cards include icons and short descriptions.
+
+Services:
+
+Software Development
+Network Security
+Mobile App Development
+Digital Marketing
+Data Recovery
+IT Consultancy
+VPN Services
+
+Each card includes:
+
+icon
+service name
+short description
+hover animation
+
+Company Approach Section
+
+Small prefix text above title (orange accent).
+
+Prefix:
+Our Strategy
+
+Title:
+Our Approach: Innovative Solutions, Tailored for Your Success
+
+Two modern feature blocks:
+
+Partner-First Approach
+
+Our approach is centered on collaboration, innovation, and delivering results. We work closely with our clients to understand their unique needs, offering tailored solutions that drive growth and success.
+
+Innovative Impact Method
+
+We combine cutting-edge technology with business insights to create impactful, tailored solutions that drive growth and ensure long-term success.
+
+Use icons and modern cards.
+
+Why Choose Nexilium Section
+
+4 feature cards:
+
+Expert Team
+Innovative Technology
+Tailored Solutions
+Proven Results
+
+Include icons and small descriptions.
+
+Statistics Section
+
+Animated number counters.
+
+Projects Delivered
+Satisfied Clients
+Years Experience
+Global Reach
+
+Use orange accent numbers.
+
+Call To Action Section
+
+Large banner section with orange gradient.
+
+Text:
+
+Ready to Transform Your Business with Advanced Technology?
+
+Buttons:
+
+Start a Project
+Contact Us
+
+Footer
+
+Footer layout with 4 columns.
+
+Column 1:
+Logo
+Short description
+
+Column 2:
+Company
+About
+Careers
+Blog
+
+Column 3:
+Services
+Software Development
+Mobile Apps
+Cybersecurity
+Consulting
+
+Column 4:
+Contact
+Email
+Phone
+Address
+
+Bottom bar:
+Copyright Nexilium Tech
+
+Page 2 — About Us
+
+Hero Section:
+About Nexilium Tech
+
+Text explaining company mission and innovation philosophy.
+
+Sections include:
+
+Our Mission
+Our Vision
+Our Values
+
+Add team member cards with photos and roles.
+
+Add timeline showing company growth.
+
+Page 3 — Offerings
+
+Hero title:
+Technology Solutions for Modern Businesses
+
+Create detailed service blocks for:
+
+Software Development
+Mobile App Development
+Network Security
+Digital Marketing
+Data Recovery
+IT Consultancy
+VPN Services
+
+Each service section includes:
+
+• icon
+• description
+• benefits
+• CTA button
+
+Add a process section
+
+Steps:
+
+1 Discovery
+2 Strategy
+3 Development
+4 Deployment
+5 Support
+
+Page 4 — Contact
+
+Hero Title:
+Get in Touch
+
+Contact form fields:
+
+Name
+Email
+Company
+Service Needed
+Message
+
+Submit Button (orange)
+
+Right side:
+
+Contact Information
+
+Email
+Phone
+Office Address
+
+Add embedded map placeholder.
+
+UI Components to Include
+
+Create reusable components:
+
+Buttons (Primary / Secondary)
+Service Cards
+Feature Cards
+Team Cards
+Navigation Bar
+Footer
+Form Inputs
+
+Use Auto Layout and proper spacing system.
+
+Advanced UI Effects
+
+Add subtle:
+
+• hover states
+• soft shadows
+• gradient accents
+• rounded UI cards
+• modern icons
+• smooth spacing system
+
+Deliverables in Figma
+
+Create organized pages:
+
+Home
+About
+Offerings
+Contact
+Components
+Style Guide
+
+Include:
+
+Color Styles
+Text Styles
+Grid Layout
+Reusable Components
