@@ -109,17 +109,17 @@ export function Footer() {
               <li className="flex items-start space-x-3 text-gray-400">
                 <Mail className="w-5 h-5 mt-0.5 text-[#FF6A00]" />
                 <div>
-                  <p>contact@nexilium.tech</p>
-                  <p>support@nexilium.tech</p>
+                  <p> info@nexiliumtech.com</p>
+                 
                 </div>
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
                 <Phone className="w-5 h-5 text-[#FF6A00]" />
-                <span>+1 (555) 123-4567</span>
+                <span> 0092515153415</span>
               </li>
               <li className="flex items-start space-x-3 text-gray-400">
                 <MapPin className="w-5 h-5 mt-0.5 text-[#FF6A00]" />
-                <span>123 Innovation Drive<br />Silicon Valley, CA 94025</span>
+                <span>Office 16, Main Defence Ave,<br /></span>Sector A DHA Phase 1, Islamabad, Pakistan.
               </li>
             </ul>
           </div>
