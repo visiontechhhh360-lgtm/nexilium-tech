@@ -138,32 +138,32 @@ function TimelineSection() {
 
   const milestones = [
     {
-      year: "2011",
+      year: "December 2024",
       title: "Foundation",
       description: "Nexilium Tech was founded with a vision to revolutionize how businesses leverage technology for growth."
     },
     {
-      year: "2014",
+      year: "March 2025",
       title: "Expansion",
       description: "Expanded our services to include comprehensive cybersecurity and cloud solutions, serving clients across 10 countries."
     },
     {
-      year: "2017",
+      year: "June 2025",
       title: "Innovation Hub",
       description: "Established our dedicated R&D center to develop proprietary solutions and advance emerging technologies."
     },
     {
-      year: "2020",
+      year: "September 2025",
       title: "Global Recognition",
       description: "Recognized as one of the top technology consulting firms, with over 300 successful projects delivered."
     },
     {
-      year: "2023",
+      year: "December 2025",
       title: "AI Integration",
       description: "Pioneered AI-driven solutions for enterprise clients, helping them automate and optimize operations at scale."
     },
     {
-      year: "2026",
+      year: "Febuary 2026",
       title: "Continued Excellence",
       description: "Celebrating 15 years of innovation, with 500+ projects delivered and a growing global presence."
     }
