@@ -119,7 +119,7 @@ export function Footer() {
               </li>
               <li className="flex items-start space-x-3 text-gray-400">
                 <MapPin className="w-5 h-5 mt-0.5 text-[#FF6A00]" />
-                <span>Office 16, Main Defence Ave,<br /></span>Sector A DHA Phase 1, Islamabad, Pakistan.
+                <span>Office 16, Main Defence Ave,<br />Sector A DHA Phase 1, Islamabad, Pakistan.</span>
               </li>
             </ul>
           </div>
