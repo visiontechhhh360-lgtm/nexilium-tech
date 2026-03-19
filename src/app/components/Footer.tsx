@@ -9,8 +9,8 @@ export function Footer() {
           {/* Column 1: Logo & Description */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-[#FF6A00] to-[#FF8C33] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">N</span>
+              <div className="w-10 h-10  items-center justify-center">
+                   <img src="/Logo.png" alt="Nexillium Tech Website" className="h-8 w-8" />
               </div>
               <span className="text-2xl font-bold">
                 Nexilium <span className="text-[#FF6A00]">Tech</span>
@@ -132,15 +132,7 @@ export function Footer() {
               © 2026 Nexilium Tech. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
-                Terms of Service
-              </a>
-              <a href="#" className="text-gray-400 hover:text-[#FF6A00] transition-colors">
-                Cookie Policy
-              </a>
+              
             </div>
           </div>
         </div>

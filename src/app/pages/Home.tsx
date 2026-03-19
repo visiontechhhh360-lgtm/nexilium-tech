@@ -180,7 +180,7 @@ export function Home() {
                 >
                   <GlassCard className="p-8">
                     <ImageWithFallback
-                      src="https://images.unsplash.com/photo-1767797852518-d3c8bc6088eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwaW5ub3ZhdGlvbiUyMGRpZ2l0YWwlMjBuZXR3b3JrfGVufDF8fHx8MTc3MjcwNjIyMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                      src="/img.png"
                       alt="Technology Innovation"
                       className="rounded-2xl"
                     />
@@ -242,8 +242,7 @@ export function Home() {
         </div>
       </section>
 
-      {/* Trusted By Section */}
-      <TrustedBySection />
+     
 
       {/* About Preview Section */}
       <AboutPreviewSection />

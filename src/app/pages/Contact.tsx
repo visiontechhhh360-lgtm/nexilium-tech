@@ -25,8 +25,7 @@ export function Contact() {
       {/* Contact Form & Info */}
       <ContactSection />
 
-      {/* Map Section */}
-      <MapSection />
+     
     </div>
   );
 }
@@ -212,8 +211,8 @@ function ContactSection() {
                   <h3 className="text-lg font-semibold text-[#0A0A0A] mb-2">
                     Email
                   </h3>
-                  <p className="text-gray-600">contact@nexilium.tech</p>
-                  <p className="text-gray-600">support@nexilium.tech</p>
+                  <p className="text-gray-600">info@nexiliumtech.com</p>
+         
                 </div>
               </div>
 
@@ -225,8 +224,8 @@ function ContactSection() {
                   <h3 className="text-lg font-semibold text-[#0A0A0A] mb-2">
                     Phone
                   </h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
-                  <p className="text-gray-600">+1 (555) 987-6543</p>
+                  <p className="text-gray-600">0092515153415</p>
+
                 </div>
               </div>
 
@@ -239,9 +238,8 @@ function ContactSection() {
                     Office Address
                   </h3>
                   <p className="text-gray-600">
-                    123 Innovation Drive<br />
-                    Silicon Valley, CA 94025<br />
-                    United States
+                   Office 16, Main Defence Ave,
+Sector A DHA Phase 1, Islamabad, Pakistan.
                   </p>
                 </div>
               </div>
@@ -254,9 +252,8 @@ function ContactSection() {
                   <h3 className="text-lg font-semibold text-[#0A0A0A] mb-2">
                     Business Hours
                   </h3>
-                  <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
-                  <p className="text-gray-600">Saturday: 10:00 AM - 4:00 PM</p>
-                  <p className="text-gray-600">Sunday: Closed</p>
+                  <p className="text-gray-600">Monday - Friday: 9:00 AM - 5:00 PM</p>
+
                 </div>
               </div>
             </div>
@@ -279,55 +276,6 @@ function ContactSection() {
             </div>
           </motion.div>
         </div>
-      </div>
-    </section>
-  );
-}
-
-function MapSection() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
-
-  return (
-    <section ref={ref} className="py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-12"
-        >
-          <h2 className="text-4xl font-bold text-[#0A0A0A] mb-4">
-            Visit Our <span className="text-[#FF6A00]">Office</span>
-          </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Located in the heart of Silicon Valley, we're always happy to welcome you
-          </p>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="rounded-2xl overflow-hidden shadow-xl border border-gray-200"
-        >
-          {/* Map Placeholder */}
-          <div className="w-full h-96 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center relative">
-            <div className="absolute inset-0 bg-gray-100">
-              <div className="w-full h-full flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="w-16 h-16 text-[#FF6A00] mx-auto mb-4" />
-                  <p className="text-gray-600 text-lg font-semibold">
-                    123 Innovation Drive, Silicon Valley, CA 94025
-                  </p>
-                  <p className="text-gray-500 text-sm mt-2">
-                    Interactive map would be embedded here
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </section>
   );
