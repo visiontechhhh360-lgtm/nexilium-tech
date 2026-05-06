@@ -151,9 +151,9 @@ export function Home() {
                 </GlassCard>
                 <GlassCard className="p-4">
                   <div className="text-3xl font-bold bg-gradient-to-r from-[#FF6A00] to-[#FF8C33] bg-clip-text text-transparent">
-                    <AnimatedCounter end={15} />+
+                    <AnimatedCounter end={40} />+
                   </div>
-                  <div className="text-sm text-white/70">Years</div>
+                  <div className="text-sm text-white/70">Experts</div>
                 </GlassCard>
               </motion.div>
             </motion.div>
@@ -572,7 +572,7 @@ function StatisticsSection() {
   const stats = [
     { value: 500, label: "Projects Delivered", suffix: "+" },
     { value: 350, label: "Satisfied Clients", suffix: "+" },
-    { value: 15, label: "Years Experience", suffix: "" },
+    { value: 40, label: "Experts", suffix: "" },
     { value: 25, label: "Global Reach", suffix: "+" },
   ];
 
